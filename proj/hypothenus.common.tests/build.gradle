@@ -17,10 +17,11 @@ repositories {
 }
 
 dependencies {
-	//implementation 'org.springframework:spring-context:6.1.8'
+	
 	implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.modelmapper:modelmapper:3.0.0'
 	compileOnly 'org.projectlombok:lombok:1.18.32'
+	testCompileOnly 'com.github.javafaker:javafaker:0.15'
 	annotationProcessor 'org.projectlombok:lombok:1.18.32'
 	testCompileOnly 'org.projectlombok:lombok:1.18.32'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.32'
